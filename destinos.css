@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4x;
+}
+
+.logoimg{
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif ;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    height: 90vh;
+    margin-top: 20px;
+
+}
+
+main .card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 20px;
+}
+
+main .card .card-title{
+    text-align: center;
+
+    font-weight: 500;
+}
+
+.nav-list{
+
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+     margin-top: 8px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+section{
+    background: rgb(141, 201, 250);
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    background: black;
+    width: 100%;
+    height: 50px;
+}
+footer h2{
+    font-size: smaller;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+}

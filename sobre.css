@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4x;
+}
+
+.logoimg{
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif ;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+}
+
+
+
+main .box-text{
+    background: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+p{
+    padding: 20px;
+}
+.nav-list{
+
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+     margin-top: 8px;
+    letter-spacing: 3px;
+    margin-left: 32px;
+ }
+
+section{
+    background: url(img/painel-tecido-sublimado-3d-nuvens-ceu-3x2m.jpg) no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sheet{
+    background: white;
+    max-width: 80%;
+    border-radius: 20px;
+}
+
+.carousel{
+    display: flex;
+    flex: wrap;
+    width: 750px;
+}
+.carousel-inner{
+    margin: 20px;
+    justify-content: space-between;
+    border-radius: 30px;
+    border-style: inset;
+}
+.carousel-inner label{
+    text-transform: uppercase;
+    text-emphasis-color: blue   ;
+    width: 100%;
+    background: white;
+ }
+
+
+section h1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+
+h1:hover{
+    opacity: 0.7;
+}
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+    background: black;
+    height: 10vh;
+    
+}
+footer h2{
+    font-size: smaller;
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#sobre{
+    background: blue;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+
